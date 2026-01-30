@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<!-- 
+I chose to split the HTML file into a header, main(with sections), and a footer. 
+The header has a title and tagline. The main is split into sections for the image, description, and instructions.
+The footer has a link to the company homepage and a working email contact link. 
+-->
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Product Page</title>
+    <style>
+      table,
+      th,
+      td {
+        border: 1px solid black;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <!-- Header includes product name and tagline -->
+      <h1>The Nokia 3310</h1>
+      <h2>The phone that just wouldn't quit.</h2>
+    </header>
+
+    <main>
+      <section>
+        <!-- First section has a description and image of the product -->
+        <p>
+          The Nokia 3310 is an iconic mobile phone that was released in 2000. It
+          is known for its simple design, <strong>durability</strong>, and long
+          battery life. <br />Its main features include calling and SMS. The
+          reliability of this phone made it a global standard in the early
+          2000's
+        </p>
+
+        <img
+          height="250px"
+          src="https://media.gq-magazine.co.uk/photos/5d1399752881cc7da90a84c6/master/w_1600%2Cc_limit/nokia3310.jpg"
+          alt="The Nokia 3310"
+        />
+        <!-- Button that allows user to add item to cart -->
+        <button>Add to cart</button>
+      </section>
+
+      <section>
+        <!-- Second section has key features, table of specs, and instructions -->
+        <h3>Key Features</h3>
+        <ul>
+          <li>Removable battery</li>
+          <li>Loud and clear audio</li>
+          <li>Physical keyboard</li>
+          <li>LCD display</li>
+        </ul>
+
+        <!-- Spec table -->
+        <table>
+          <tr>
+            <th>Specification</th>
+            <th>Details</th>
+          </tr>
+          <tr>
+            <td>Weight</td>
+            <td>133g</td>
+          </tr>
+          <tr>
+            <td>Dimensions</td>
+            <td>113 x 48 x 22mm</td>
+          </tr>
+          <tr>
+            <td>Battery life</td>
+            <td>260 hours standby 4.5 hours talk time</td>
+          </tr>
+          <tr>
+            <td>Storage</td>
+            <td>250 contacts</td>
+          </tr>
+        </table>
+
+        <h3>How to use</h3>
+        <ol>
+          <li>Insert SIM card into back of the phone</li>
+          <li>Charge the phone with included charger</li>
+          <li>Turn on the phone using top power button</li>
+          <li>Use keypad to make calls or send SMS messages</li>
+        </ol>
+      </section>
+    </main>
+
+    <footer>
+      <!-- Footer includes a link to the company website and contact info -->
+      <a href="https://www.nokia.com/" target="_blank">Nokia Homepage</a>
+      <h4>Contact Us</h4>
+      <p>Email</p>
+      <a href="mailto:support@nokiahr.com" target="_blank"
+        >support@nokiahr.com</a
+      >
+    </footer>
+  </body>
+</html>
