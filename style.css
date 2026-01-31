@@ -1,0 +1,67 @@
+/* table style */
+table,
+th,
+td {
+  border: 1px solid black;
+  width: 50vh;
+  text-align: center;
+}
+
+/* Universal font style */
+* {
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+/* body color */
+body {
+  background-color: blanchedalmond;
+}
+
+h1 {
+  font-weight: 1000;
+  letter-spacing: .3rem;
+}
+
+h2 {
+  color: grey;
+  opacity: 0.8;
+}
+
+h3 {
+  font-style: oblique;
+}
+
+.center {
+  text-align: center;
+}
+
+p {
+  line-height: 2;
+}
+
+.green-text {
+  color: rgb(69, 114, 73);
+}
+
+#nokia-img {
+  height: 30vh;
+  border: 2px solid;
+  border-radius: 10px;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.623);
+}
+
+.underline-text {
+  text-decoration: dashed underline;
+}
+
+.small-p {
+  font-size: 0.8rem;
+}
+
+.thick-border {
+  border: 2px;
+}
+
+button:hover {
+  background-color: rgb(97, 148, 97);
+}
